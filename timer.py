@@ -18,7 +18,7 @@ t = datetime.now()
 start = 0
 
 earlys = ["Maybe go do some math?", "Wanna go draw something?", "Any homework that needs to be done?"]
-urls = ["https://www.youtube.com/watch?v=xNbzw8T7rhc", "https://www.youtube.com/watch?v=Vgrqa189Jy0", "https://www.youtube.com/watch?v=Ksgh08EHNo8"]
+urls = ["https://play.prodigygame.com/", "https://play.dreambox.com/"]
 
 if os.path.exists("day.json"):
     with open("day.json") as f:

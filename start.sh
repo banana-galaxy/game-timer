@@ -1,1 +1,1 @@
-python3 timer.py
+python3 /home/alex/github/game_check/timer.py

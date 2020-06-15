@@ -9,7 +9,7 @@ import json
 import pyautogui
 #print(str(datetime.now())[11:19])
 PROCNAME = "java"
-playTime = 3#*60**2
+playTime = 3*60**2
 earliest = "12:00:00"
 afktimer = 60
 afktime = 0
@@ -72,6 +72,7 @@ def show(args):
 
 
 while True:
+    time.sleep(30)
     try:
         for proc in psutil.process_iter():
             if proc.name() == PROCNAME:
